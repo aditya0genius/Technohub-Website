@@ -1,38 +1,121 @@
-.App {
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background-color: #171c3a ;
+  color:floralwhite;
+  border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #060318;
+}
+
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+.btn_1 {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #4dbb39;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.btn_1:hover {
+  color: #4dbb39;
+  background-color: #fff;
+}
+
+.single_service_part {
+  margin: 0px 10px 0px 10px;
+  font-weight: 300;
+  padding: 20px 20px 20px 20px;
   text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: 1px solid #dfdfdf;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.single_service_part:hover {
+  
+  font-weight: 300;
+  background-color: #279309;
+  color: floralwhite;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid #dfdfdf;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service_part {
+  margin: 20px 0px 20px 0px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fa-microchip{
+  font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-graduation-cap{
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-wrench{
+  font-size: 50px;
+}
+
+.fa-users{
+  font-size: 50px;
 }
